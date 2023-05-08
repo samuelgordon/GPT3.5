@@ -4,7 +4,7 @@ import openai
 openai.api_key = os.getenv("OpenAI API Key")
 
 while True:
-  question = input("\033[34mWhat is your question?\n\033[0m")
+  question = input("\033[34mWhat can I answer for you?\n\033[0m")
 
   if question.lower() == "exit":
     print("\033[31mGoodbye!\n\033[0m")
